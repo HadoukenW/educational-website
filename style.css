@@ -244,7 +244,7 @@ nav {
 }
 
 .menu__item-link {
-  color: white;
+  color: black;
 }
 .menu__item-link:hover {
   color: rgb(96, 128, 233);
