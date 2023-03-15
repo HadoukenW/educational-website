@@ -801,6 +801,9 @@ ul li {
 
 ul li label {
   cursor: pointer;
+  margin-bottom: 0;
+  line-height: 27px;
+  font-size: 1em;
 }
 
 button {
