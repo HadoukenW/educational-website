@@ -753,7 +753,7 @@ nav {
 }
 
 .quiz__section {
-  padding: 100px 0;
+  padding: 100px 15px;
 }
 
 .quiz-container {
@@ -766,11 +766,11 @@ nav {
   display: flex;
   margin: 0 auto;
   flex-direction: column;
-  padding: 0 15px;
 }
 
 .quiz-header {
   padding: 2.5rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
 }
 @media (max-width: 992px) {
@@ -783,6 +783,18 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.quiz-header ul {
+  margin-top: 15px;
+}
+
+.question {
+  font-size: 26px;
+}
+
+.quiz__answered {
+  padding: 1.25rem;
+  font-size: 26px;
 }
 
 h2 {
