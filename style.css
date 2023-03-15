@@ -620,7 +620,17 @@ nav {
 }
 
 .cyberattack__section {
-  padding-top: 75px;
+  padding-top: 125px;
+}
+@media (max-width: 992px) {
+  .cyberattack__section {
+    padding-top: 75px;
+  }
+}
+@media (max-width: 767px) {
+  .cyberattack__section {
+    padding-top: 50px;
+  }
 }
 .cyberattack__section h1 {
   margin-bottom: 1rem;
@@ -660,6 +670,21 @@ nav {
     text-align: center;
   }
 }
+@media (max-width: 767px) {
+  .attacks__after-section h2 {
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 992px) {
+  .attacks__after-section {
+    padding: 10px 0;
+  }
+}
+@media (max-width: 767px) {
+  .attacks__after-section {
+    padding: 0 0;
+  }
+}
 .attacks__after-section p {
   margin-bottom: 1rem;
 }
@@ -677,6 +702,16 @@ nav {
 }
 .advice__section {
   padding: 75px 0;
+}
+@media (max-width: 992px) {
+  .advice__section {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 767px) {
+  .advice__section {
+    padding: 25px 0;
+  }
 }
 .advice__section .container {
   max-width: 1200px;
@@ -744,6 +779,16 @@ nav {
 .advice2__section {
   padding: 100px 0;
 }
+@media (max-width: 992px) {
+  .advice2__section {
+    padding: 75px 0;
+  }
+}
+@media (max-width: 767px) {
+  .advice2__section {
+    padding: 50px 0;
+  }
+}
 .advice2__section .container {
   max-width: 1200px;
 }
@@ -754,6 +799,16 @@ nav {
 
 .quiz__section {
   padding: 100px 15px;
+}
+@media (max-width: 992px) {
+  .quiz__section {
+    padding: 75px 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .quiz__section {
+    padding: 50px 0 0;
+  }
 }
 
 .quiz-container {
@@ -870,6 +925,17 @@ button:focus {
 .carousel__section {
   padding: 30px 0 100px;
 }
+@media (max-width: 992px) {
+  .carousel__section {
+    padding-top: 20px;
+    padding-bottom: 75px;
+  }
+}
+@media (max-width: 767px) {
+  .carousel__section {
+    padding-bottom: 0px;
+  }
+}
 
 #carousel {
   max-width: 1160px;
@@ -928,4 +994,28 @@ button:focus {
 }
 #next svg:hover {
   transform: translateY(-5px);
+}
+
+@media (max-width: 992px) {
+  .home-scroll_content.page-padding {
+    padding: 3rem 0;
+  }
+}
+@media (max-width: 767px) {
+  .home-scroll_content.page-padding {
+    padding: 2.5rem 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .home-scroll_text-item {
+    padding-top: 2.25em;
+    padding-bottom: 2.25rem;
+  }
+}
+@media (max-width: 992px) and (max-width: 767px) {
+  .home-scroll_text-item {
+    padding-top: 1.75em;
+    padding-bottom: 1.75rem;
+  }
 }/*# sourceMappingURL=style.css.map */
